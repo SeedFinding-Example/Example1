@@ -1,14 +1,6 @@
-# Feature Utils
+# Episode 1
 
-A library to provide Structure, Feature placement as well as their generation and respective loot.
+Hi, In today episode we are looking how to use the libraries to make a witch hut finder depending of if we know the position, the seed as well as a quad witch hut finder.
 
-A few utilities are also present such as slime chunk, spawnpoint...
+Video at :
 
-Look in the test folder for how to use
-
-## Legal mentions
-Licensed under MIT
-
-Maintained by Neil and KaptainWutax.
-
-NOT OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG.
