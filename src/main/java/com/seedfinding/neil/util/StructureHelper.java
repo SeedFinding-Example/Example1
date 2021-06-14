@@ -1,4 +1,4 @@
-package neil.util;
+package com.seedfinding.neil.util;
 
 import kaptainwutax.biomeutils.source.BiomeSource;
 import kaptainwutax.featureutils.GenerationContext;
