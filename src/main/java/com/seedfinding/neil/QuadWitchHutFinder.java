@@ -1,4 +1,4 @@
-package neil;
+package com.seedfinding.neil;
 
 import kaptainwutax.biomeutils.source.BiomeSource;
 import kaptainwutax.featureutils.structure.RegionStructure;
@@ -31,7 +31,7 @@ public class QuadWitchHutFinder implements Runnable {
 			WorldSeed.getSisterSeeds(structureSeed).asStream().filter(worldSeed->{
 				BiomeSource biomeSource=BiomeSource.of(CURRENT_STRUCTURE.getValidDimension(),VERSION,worldSeed);
 				return checkBiomes(biomeSource,regX,regZ,CURRENT_STRUCTURE);
-			}).forEach(System.out::println);
+			}).forEach(e-> System.out.println(e+" "+regionSeed));
 		}
 	}
 

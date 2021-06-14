@@ -1,11 +1,15 @@
-package neil;
+package com.seedfinding.neil;
 
+import com.seedfinding.neil.util.StructureHelper;
 import kaptainwutax.biomeutils.source.BiomeSource;
 import kaptainwutax.featureutils.structure.RegionStructure;
 import kaptainwutax.featureutils.structure.SwampHut;
 import kaptainwutax.mcutils.rand.ChunkRand;
+import kaptainwutax.mcutils.util.pos.BPos;
 import kaptainwutax.mcutils.util.pos.CPos;
 import kaptainwutax.mcutils.version.MCVersion;
+
+import java.util.Objects;
 
 
 public class WitchHutPosFinder implements Runnable{
@@ -32,7 +36,19 @@ public class WitchHutPosFinder implements Runnable{
 		}
 	}
 
+	public void withHelper(){
+		long worldSeed=1L;
+		BiomeSource source=BiomeSource.of(CURRENT_STRUCTURE.getValidDimension(),VERSION,worldSeed);
+		BPos center=new BPos(0,0,0);
+		Objects.requireNonNull(StructureHelper.getClosest(CURRENT_STRUCTURE, center, worldSeed, source, null, 1))
+				.parallel()
+				.limit(10000)
+				.forEach(bpos->System.out.printf("/tp @p %d ~ %d%n",bpos.getX(),bpos.getZ()));
+
+	}
+
 	public static void main(String[] args) {
 		new WitchHutPosFinder().run();
+		new WitchHutPosFinder().withHelper();
 	}
 }
