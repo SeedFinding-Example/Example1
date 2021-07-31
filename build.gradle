@@ -17,10 +17,7 @@ application{
 }
 
 dependencies {
-    implementation ('com.github.KaptainWutax:SEED:master-SNAPSHOT'){
-        exclude group: 'com.github.KaptainWutax', module: 'ChunkRandomReversal'
-    }
-    implementation 'com.github.KaptainWutax:ChunkRandomReversal:3fc82aab792d811fb296dcc28fe7177ac80c31f0'
+    implementation ('com.github.hube12:SEED:master-SNAPSHOT')
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
