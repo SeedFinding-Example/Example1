@@ -1,17 +1,17 @@
 package com.seedfinding.neil;
 
-import kaptainwutax.biomeutils.source.BiomeSource;
-import kaptainwutax.featureutils.structure.RegionStructure;
-import kaptainwutax.featureutils.structure.SwampHut;
-import kaptainwutax.mcutils.rand.ChunkRand;
-import kaptainwutax.mcutils.rand.seed.StructureSeed;
-import kaptainwutax.mcutils.rand.seed.WorldSeed;
-import kaptainwutax.mcutils.state.Dimension;
-import kaptainwutax.mcutils.util.data.Pair;
-import kaptainwutax.mcutils.util.math.DistanceMetric;
-import kaptainwutax.mcutils.util.pos.CPos;
-import kaptainwutax.mcutils.util.pos.RPos;
-import kaptainwutax.mcutils.version.MCVersion;
+import com.seedfinding.mcbiome.source.BiomeSource;
+import com.seedfinding.mcfeature.structure.RegionStructure;
+import com.seedfinding.mcfeature.structure.SwampHut;
+import com.seedfinding.mccore.rand.ChunkRand;
+import com.seedfinding.mccore.rand.seed.StructureSeed;
+import com.seedfinding.mccore.rand.seed.WorldSeed;
+import com.seedfinding.mccore.state.Dimension;
+import com.seedfinding.mccore.util.data.Pair;
+import com.seedfinding.mccore.util.math.DistanceMetric;
+import com.seedfinding.mccore.util.pos.CPos;
+import com.seedfinding.mccore.util.pos.RPos;
+import com.seedfinding.mccore.version.MCVersion;
 
 import java.util.ArrayList;
 import java.util.Arrays;

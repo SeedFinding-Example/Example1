@@ -1,20 +1,20 @@
 package com.seedfinding.neil;
 
 
-import kaptainwutax.biomeutils.source.BiomeSource;
-import kaptainwutax.biomeutils.source.OverworldBiomeSource;
-import kaptainwutax.featureutils.structure.RegionStructure;
-import kaptainwutax.featureutils.structure.SwampHut;
-import kaptainwutax.mathutils.component.vector.QVector;
-import kaptainwutax.mathutils.util.Mth;
-import kaptainwutax.mcutils.rand.ChunkRand;
-import kaptainwutax.mcutils.rand.seed.RegionSeed;
-import kaptainwutax.mcutils.util.pos.BPos;
-import kaptainwutax.mcutils.util.pos.CPos;
-import kaptainwutax.mcutils.util.pos.RPos;
-import kaptainwutax.mcutils.version.MCVersion;
-import mjtb49.hashreversals.ChunkRandomReverser;
-import mjtb49.hashreversals.Lattice2D;
+import com.seedfinding.mcbiome.source.BiomeSource;
+import com.seedfinding.mcbiome.source.OverworldBiomeSource;
+import com.seedfinding.mcfeature.structure.RegionStructure;
+import com.seedfinding.mcfeature.structure.SwampHut;
+import com.seedfinding.mcmath.component.vector.QVector;
+import com.seedfinding.mcmath.util.Mth;
+import com.seedfinding.mccore.rand.ChunkRand;
+import com.seedfinding.mccore.rand.seed.RegionSeed;
+import com.seedfinding.mccore.util.pos.BPos;
+import com.seedfinding.mccore.util.pos.CPos;
+import com.seedfinding.mccore.util.pos.RPos;
+import com.seedfinding.mccore.version.MCVersion;
+import com.seedfinding.mcreversal.Lattice2D;
+import com.seedfinding.mcreversal.ChunkRandomReverser;
 
 import java.io.BufferedReader;
 import java.io.InputStream;

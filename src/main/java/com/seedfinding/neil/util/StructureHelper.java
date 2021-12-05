@@ -1,17 +1,17 @@
 package com.seedfinding.neil.util;
 
-import kaptainwutax.biomeutils.source.BiomeSource;
-import kaptainwutax.featureutils.GenerationContext;
-import kaptainwutax.featureutils.structure.RegionStructure;
-import kaptainwutax.featureutils.structure.Stronghold;
-import kaptainwutax.featureutils.structure.Structure;
-import kaptainwutax.featureutils.structure.SwampHut;
-import kaptainwutax.mcutils.rand.ChunkRand;
-import kaptainwutax.mcutils.util.pos.BPos;
-import kaptainwutax.mcutils.util.pos.CPos;
-import kaptainwutax.mcutils.util.pos.RPos;
-import kaptainwutax.mcutils.version.MCVersion;
-import kaptainwutax.terrainutils.TerrainGenerator;
+import com.seedfinding.mcbiome.source.BiomeSource;
+import com.seedfinding.mcfeature.GenerationContext;
+import com.seedfinding.mcfeature.structure.RegionStructure;
+import com.seedfinding.mcfeature.structure.Stronghold;
+import com.seedfinding.mcfeature.structure.Structure;
+import com.seedfinding.mcfeature.structure.SwampHut;
+import com.seedfinding.mccore.rand.ChunkRand;
+import com.seedfinding.mccore.util.pos.BPos;
+import com.seedfinding.mccore.util.pos.CPos;
+import com.seedfinding.mccore.util.pos.RPos;
+import com.seedfinding.mccore.version.MCVersion;
+import com.seedfinding.mcterrain.TerrainGenerator;
 
 import java.util.*;
 import java.util.stream.Collectors;
